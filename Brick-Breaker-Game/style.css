@@ -1,0 +1,42 @@
+body {
+  background: #000;
+  color: #fff;
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+canvas {
+  display: block;
+  margin: 20px auto;
+  background: #111;
+  border: 2px solid #fff;
+}
+
+.screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 2;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+#continueBtn {
+  display: none;
+  margin-top: 10px;
+}
