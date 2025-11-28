@@ -1,7 +1,5 @@
 # 🎮 Brick Breaker Game – HTML, CSS & JavaScript
 
-Created by **Tanvy Code Studio**
-
 A fully interactive **Brick Breaker game** with exciting features like:
 
 - ✨ **Smooth Gameplay**
